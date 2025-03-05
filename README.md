@@ -1,35 +1,34 @@
 # Heart Disease Prediction Project (Statlog Heart)
 
-**Autor:** Miraslau Alkhovk, 248655, Politechnika Łódzka
+**Author:** Miraslau Alkhovk, 248655, Lodz University of Technology
 
-## Opis projektu
+## Project Description
 
-Celem projektu jest stworzenie modelu klasyfikacji, który na podstawie danych medycznych przewiduje obecność choroby serca. Zbiór danych *Statlog (Heart)* zawiera 270 rekordów z informacjami takimi jak wiek, płeć, typ bólu w klatce piersiowej, ciśnienie krwi, poziom cholesterolu, wyniki EKG, maksymalna częstotliwość akcji serca oraz inne istotne cechy. Zmienna docelowa `presence` określa, czy choroba serca występuje (1 = brak choroby, 2 = choroba).
+The goal of this project is to create a classification model that predicts the presence of heart disease based on medical data. The *Statlog (Heart)* dataset contains 270 records with information such as age, gender, type of chest pain, blood pressure, cholesterol level, ECG results, maximum heart rate achieved, and other significant features. The target variable `presence` indicates whether heart disease is present (1 = no disease, 2 = disease).
 
-## Zawartość projektu
+## Project Contents
 
-- **Kod źródłowy:**  
-  Notebook (`heart_statlog.ipynb`) zawierający:
-  - Import i eksplorację danych.
-  - Czyszczenie oraz analizę statystyczną.
-  - Wizualizację zależności między cechami (wykresy korelacji, box ploty, heatmapa).
-  - Budowę modeli klasyfikacyjnych:
-    - Regresja logistyczna.
-    - Drzewo decyzyjne.
-  - Oceny modeli (macierze pomyłek, raporty klasyfikacyjne).
+- **Source Code:**  
+  A notebook (`heart_statlog.ipynb`) that includes:
+  - Data import and exploration.
+  - Data cleaning and statistical analysis.
+  - Visualization of relationships between features (correlation plots, box plots, heatmap).
+  - Building classification models:
+    - Logistic Regression.
+    - Decision Tree.
+  - Model evaluation (confusion matrices, classification reports).
 
-## Wymagania
+## Requirements
 
-Projekt został zrealizowany w Pythonie. Niezbędne biblioteki:
+The project is implemented in Python. The required libraries are:
 - `pandas`
 - `seaborn`
 - `matplotlib`
 - `scikit-learn`
 
+## Installation and Running
 
-## Instalacja i uruchomienie
-
-1. **Sklonuj repozytorium:**
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/miraslauuu/heart.git
